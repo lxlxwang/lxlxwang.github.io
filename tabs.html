@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>帮助</title>
+	<script type="text/javascript" src="../easyui/jquery.min.js"></script>
+	<script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="../easyui/locale/easyui-lang-zh_CN.js"></script>
+	<link rel="stylesheet" type="text/css" href="../easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
+    <style type="text/css">
+	       .sdf{color:#006699;font-style:normal;font-size:16px;}
+		   .sdff{color:#9e0303;font-style:normal;font-size:16px;} 
+	</style>
+
+</head>
+<body>
+	<div id="t" class="easyui-tabs">
+		<div title="基本流程" id="tt">
+			<div title="1.价格表准备" style='margin: 5px;'>
+
+				<a href="https://www.bilibili.com/video/BV1vQ4y1g7hd/?vd_source=b3b960f212da326452f95ff7d22ff2ef" target="_blank"><h2>编辑价格表视频</h2></a><br />
+	
+				
+				<span class='sdf'>
+				1、价格表作为项目输入的资源库，用户可以根据不同预算项目的需求编辑、存储和导入不同的项目数据库；已经做过的项目备份数据是可以导入项目价格表作为库资源来加以利用的；随着项目的增加，用户可以逐渐分门别类建立属于自己的项目数据库。
+				</span><br /><br />
+				<span class='sdf'>
+				2、价格表也可以和项目表格的价格数据进行交互。如图所示：
+				</span><br /><img src="images/d1.jpg"/><br /><br />
+				<span class='sdf'>
+				3、价格表还可以为用户导出和导入Excel表格，注意：导入Excel表格必须要采用导出的Excel表格格式！因此，建议用户可以在导出的Excel表格的基础上进行编辑再导入使用。如图所示为需要导入的Excel表格格式：
+				</span><br /><img src="images/d3.jpg"/>
+				<br /><img src="images/d2.jpg"/>
+
+				<span class='sdf'>
+				4、点击打开编辑价格表按钮，引入及编辑需要的价格表库。如图所示
+				</span><br /><br />
+				<img src="images/aa1.gif" width="880" /><br /><br />
+				<span class='sdf'>
+				5、手工录入。如图所示
+				</span><br /><br />
+				<img src="images/aa1b.gif" width="880" /><br /><br />
+
+				<br /><br /><br />
+			</div>
+			<div title="2.项目关联表" style='margin: 5px;'>
+				<a href="https://www.bilibili.com/video/BV1AA4m137rj/?vd_source=b3b960f212da326452f95ff7d22ff2ef" target="_blank"><h2>编辑房间名称及项目关联表视频</h2></a><br />
+				<b class='sdf' style='margin:0px 10px 10px 0px;'><br />
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp这个窗口由两个数据表组成，其中房间名称及材质分配表，是为下一步建模提供可选择的房间名称及各部位需要赋予的材质名称和创建的组件名称；而项目关联表则是为项目工程量计算提供模型中的关联数据。
+				</b>
+				<hr>
+				<p class='sdf' style='margin:0px 10px 10px 0px;'><br />
+					1、在建房间工具栏中点击房间名称及材料分配表按钮编辑需要的房间名称及各部位需要赋予的材料,系统已经自动命名了默认的名称，可以按需要进行修改。如图所示
+				</p>
+				<img src="images/2_1a.jpg" width="880" /><br /><br />
+				<img src="images/2_1b.jpg" width="880" /><br /><br />
+				<img src="images/2_1c.jpg" width="880" /><br /><br />
+				<br /><br /><br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					2、点击编辑预设项目关联表按钮，编辑项目关联表;在这个窗口中，可以将模型中的材质及组件对应的造价项目，通过导入价格表的项目名称来进行关联，同时通过输入系数来调整关联量的大小。
+				</p>
+				<img src="images/2_2a.jpg" width="880" /><br />
+				<img src="images/2_2b.jpg" width="880" /><br />
+				<img src="images/2_2c.jpg" width="880" /><br />
+				<img src="images/2_1d.jpg" width="880" /><br /><br />
+				<br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					3、如果房间模型建立完成后，还需要修改模型中的材质及组件名称，可以通过点击重新加载数据到模型按钮来更新模型中的数据。如图所示
+				</p>
+				<img src="images/2_2d.jpg" width="880" /><br />
+				<br /><br /><br />
+			</div>
+			<div title="3.建房间模型" style='margin:10px;' >
+				<a href="https://www.bilibili.com/video/BV1Cu4y1J7XB/?vd_source=b3b960f212da326452f95ff7d22ff2ef" target="_blank"><h2>建立房间模型视频</h2></a><br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'><br />
+					1、导入cad平面图，用点击建面工具绘制出需要的平面图模型,注意：房间门洞宽度是根据门口的过门平面来确定的，这个面也需要建立；另外，在点击平面图时，系统会清理CAD图，进行图层及材质归零处理。如图所示
+				</p>
+				<img src="images/2_3a.gif" width="880" /><br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					2、等全部平面模型完成后，再分别选择一每个房间平面，根据提示建立房间；系统会根据选择面相邻面的宽度自动建立门洞,根据房间轮廓建立地脚线和天花线，同时会根据前面编辑的分配表给房间赋予需要的材质。如图所示
+				</p>
+				<img src="images/2_3b.gif" width="880" /><br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					3、房间模型建立完成后，点击房间开窗工具，根据提示给房间开窗；如果遇见转角通窗，可以分别建立两个方向的窗后进行合并；注意用专用工具建立的房间和窗的每个面是有专门信息的，不要轻易删除和替换，否则重新加载数据到模型工具会对这个面失效。如图所示
+				</p>
+				<img src="images/2_3c.gif" width="880" /><br />
+				<img src="images/2_3d.gif" width="880" /><br />
+				
+				<br /><br /><br />
+			</div>
+			<div title="4.项目清单表" style='margin:10px;' >
+				<a href="https://www.bilibili.com/video/BV1cw411b7g7/?vd_source=b3b960f212da326452f95ff7d22ff2ef" target="_blank"><h2>编辑清单计算表视频</h2></a><br />
+				<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					点击造价助手工具栏中的编辑项目清单表按钮，进入项目清单表，点击清单表中的加载全部预设项目表数据按钮，系统就会加载并计算出全部预设的数据了,再通过手动输入补充一些项目最终完成项目造价。如图所示
+				</p>
+				<img src="images/2_4.gif" width="840" /><br />
+				<p class='sdf'>
+					另外，项目的编辑还有其他3种方法：<br />
+					1、手动输入。如图所示
+				</p>
+					<img src="images/1_3_1.gif" width="880" /><br /><br />
+				<p class='sdf'>
+					2、通过价格表引入。如图所示
+				</p>
+					<img src="images/1_3_2.gif" width="880" /><br /><br />
+				<p class='sdf'>
+					3、点击提取备份数据按钮导入备份的项目数据。如图所示
+				</p>
+					<img src="images/1_3_3.gif" width="880" /><br />
+				
+					<br />
+				<br /><br />
+
+			</div>
+
+			<div title="5.输出报表" style='margin:10px;'>
+				<a href="https://www.bilibili.com/video/BV1Ug4y1y7ug/?spm_id_from=333.788&vd_source=b3b960f212da326452f95ff7d22ff2ef"  target="_blank"><h2>输出报表视频</h2></a><br />
+
+				<p><span class='sdf'>
+					1、当项目数据录入完成后，返回主菜单，点击输出设置按钮，进入数据输出设置菜单选项。输出的Excel报表有两种方式，一种为静态表格，没有计算公式，只为打印或传输，而第二种动态表格则是输出一定的计算公式，所有数据的结果会因为其中数据的修改而改变。
+				</span></p>
+					<img src="images/1_7.jpg" width="700" /><br />
+					<img src="images/1_8_2.jpg" width="400" /><br />
+				<p><span class='sdf'>
+				2、输出报表分为3种架构，A架构为以项目分类为第一目录，模型中的空间分类为第二目录进行分类统计计算，反之，如果是B类架构，则模型的父级组件名称为第一目录，项目分类为第二目录进行统计计算；C架构为以项目分类为第一目录，项目明细为第二目录进行空间分类统计计算。如图所示：
+				</span></p><br /><img src="images/e1.jpg"/><br /><img src="images/e2.jpg"/><br /><img src="images/e3.jpg" width="450"/><br /><br />
+				<p><span class='sdf'>
+				3、Excel报表在输出时，会因为用户数据量的不同而花费一定时间，请耐心等待数据输出完成，等全部数据加载完成后再查看输出的Excel报表，注意：在Excel表完成输出之前请不要操作Excel表格，否则会中断报表的输出过程！
+				</span></p><br />
+				<img src="images/1_8.jpg" width="700" /><br />
+				
+					<br /><br /><br />
+			</div>
+
+		</div>
+		<div title="材质取量规则" >
+			<ol><li><span class='sdf'>
+				模型中材质是项目面积的计量的载体，不管项目中输入的单位是什么，只要是选择材质名称计量，统一都是计算面的面积，计算单位为平方米。
+				</span></li><br />
+				<li><span class='sdf'>
+				当正反两面都有材质时，只取正面的材质，当正面没有材质，反面有材质时，获取反面的材质。所有的取量规则都是保留小数点后两位数并四舍五入。
+				</span></li><br />
+				<li><span class='sdf'>
+				<!--如果只是组件被赋予材质时，将获取组件内的所有单面的面积，但会减去组件内被赋予其他材质的面积，注意！如果组件被赋予材质，sketchUp的图元信息里显示的是双面的面积。-->
+				为避免误操作给组件赋予材质后干扰数据，这里统一对组件上赋予的材质不予计量，只计算组件内的面被单独赋予材质的量。
+				</span></li><br />
+				<li><span class='sdf'>
+				模型材质取量，可以在输入界面的下拉菜单的材质名称中多选，也可以点选按钮直接获取模型中的当前材质；被选择名称的材质的面积将会被提取并汇总，注意：同样的材质如果同时被选择2次，那么它的材质面积也会被计算2次。
+				</span></li><br />
+				<li><span class='sdf'>下面是具体操作方法：
+					<p class='sdf' style='margin:0px 10px 10px 0px;'>
+						双击需要编辑的项目行，进入项目编辑窗口对项目进行编辑；选择材质栏可以获取模型中材质的量,材质名称的选择有二种方法，一是下拉菜单选择，二是点击点选按钮在模型中获得当前的材质名称。如图所示
+						</p>
+						<img src="images/aa3.gif" width="880" /><br />
+						<span class='sdf'>下图为根据获取的客厅材质面积乘以损耗系数得到主材800*800瓷砖的工程量</span><br />
+						<img src="images/aa10.gif" width="880" /><br /><br />
+					<br /><br /><br />
+				
+			</ol>
+		</div>
+		<div title="组件取量规则">
+			<ol>
+				<li><span class='sdf'>
+				组或组件的取量是基于选择的单位类型而变化的，比如，如果单位选择的是"米"和"m"，那么计算方法就是只计算选择的组件名称内的长度单位为米的线条长度；如果单位设定为"立方米"或"m³"，那么就是计算组件的单位为立方米的体积；注意：面积的计算统一由材质来处理,如果组件的计算单位设为"㎡"和"平方米"，系统也只计算组件中线条的长度（根据这个特性，可以用周长乘以系数来计算相关项目的面积）；除此之外，其他的单位就只是计算组件的个数（其他单位可以手动输入）。
+				</span></li><img src="images/aa5.gif" width="880" /><br /><br />
+				<span class='sdf'>下图为根据获取的卫生间地面模型周长乘以系数（高度）得到卫生间1.8米,厨房0.4米高墙面防水面积的工程量</span><br />
+				<img src="images/1_5_2.gif" width="880" /><br />
+
+			</span>
+				<li><span class='sdf'>
+				同名的组或组件会进行自动汇总，所有的取量规则都是保留小数点后两位数并四舍五入。
+				</span></li><br />
+				<li><span class='sdf'>
+				模型中组件取量，可以在输入界面的下拉菜单的组件名称中多选，也可以点选按钮在模型中选择组件；被选择名称的组件的数据将会被提取并汇总，注意：同样的组件如果同时被选择2次，那么它的数据也会被计算2次。
+				</span></li><br />
+				
+	
+					
+
+			
+				
+			</ol>
+		</div>
+		<div title="手动输入">
+			<ol>
+				<li><span class='sdf'>
+				手动输入可以跳开空间组件的限制而进行工程量的输入及计算，其中的算量工具可以在任意模型中的面或线条组件等模型元素中进行取量、加减乘除及汇总。当选择的计量单位为米时，系统只对选择模型中的线条的长度进行计算；当选择的计量单位为平方米时，系统就只对选择的模型的面的面积进行统计,选择组件可以计算数量和体积，也可以选择手动模式手工输入数据。
+				</span></li><br /><img src="images/g1.jpg"/><br /><br />
+				<li><span class='sdf'>
+				在手动输入项目模式下使用算量工具，建议用户使用导入的CAD平面图进行取量会更加清晰明确。
+
+					<p class='sdf' style='margin:0px 10px 10px 0px;'>
+					下图为根据获取的线条长度乘以系数来得到拆除墙面的面积
+					</p>
+					<img src="images/aa7.gif" width="880" /><br /><br />
+				</span></li><br />
+			</ol>
+		</div>
+
+
+		<div title="项目算量实例" id="tt2">
+			<div title="数据采集" style='margin:10px;'>					
+					<hr><b style="font-family:arial;color:red;font-size:20px;">房间基本数据快速采集方法:</b><hr>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							1、在建房间工具栏中点击编辑房间及材质组件名称按钮进入编辑窗口，点击提取备份数据按钮,加载文件\c4\a1目录下的roomName(jcsj).json文件。见下图:
+						</b><br><br>
+						<img src="images/h0.jpg" width="800" /><br><br>
+						<img src="images/h0b.jpg" width="800" /><br><br>
+						<img src="images/h0c.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							2、用建房间工具建立模型并插入门窗。见下图:
+						</b><br><br><img src="images/h1.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							3、打开项目清单计算表，点击加载预设项目表数据按钮加载更新数据。见下图:
+						</b><br><br><img src="images/h2.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							4、在项目清单计算表中点击数据交换的导出Excel项目数据B按钮。见下图:
+						</b><br><br><img src="images/h4.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							5、在导出的Excel报表中就看到需要的房间数据了。见下图:
+						</b><br><br><img src="images/h5.jpg" width="800" /><br><br><br>
+			</div>
+			<div title="整体改价格" style='margin:10px;'>					
+				<hr><b style="font-family:arial;color:red;font-size:20px;">在项目表中整体快速修改单价的方法:</b><hr>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						1、先在项目表中将项目文件导出为Excel价格表。见下图:
+					</b><br><br>
+					<img src="images/h46.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						2、在导出的Excel价格表中修改价格。见下图:
+					</b><br><br><img src="images/h47.jpg" width="900" /><br><br>
+					<img src="images/h48.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						3、打开插件的价格表，在存取数据栏的导入修改好价格的Excel表。见下图:
+					</b><br><br><img src="images/h49.jpg" width="300" style="vertical-align:top;" /><img src="images/h50.jpg" width="600" style="vertical-align:top;"/><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						4、回到项目清单表点击更新单价数据按钮，项目中的价格数据就全部重新更新了。见下图:
+					</b><br><br><img src="images/h51.jpg" width="900" /><br><br><br>
+			</div>			
+			<div title="墙体拆改" style='margin:10px;' >					
+					<hr><b style="font-family:arial;color:red;font-size:20px;">怎样计算拆除墙体和新建墙体:</b><hr>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							1、用手工输入法，点击手工输入明细按钮再点击算量工具。见下图:
+						</b><br><br><img src="images/h6.jpg" width="800" /><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							2、在算量工具界面点击需要拆除墙体的长度线条，点击+号添加数据，在系数栏输入墙高2.7，点击获得计算结果再点击发送后就得到需要的拆除墙面积了。见下图:
+						</b><br><br><img src="images/h7.jpg" width="800" /><br><br><br>
+						<img src="images/h6b.jpg" width="800" /><br><br><br>
+						<img src="images/h7b.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							3、新建墙体用组件统计方法，先将导入的平面图在父级空间组件中命名。见下图:
+						</b><br><br><img src="images/h8.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							4、再进入这个组件选择新建的墙体长度线条后成组并命名。见下图:
+						</b><br><br><img src="images/h9.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							5、有两种方式得到需要的组件名，一个是直接下拉列表中选择，另一种是点击获得当前组件名称按钮。见下图:
+						</b><br><br><img src="images/h10.jpg" width="400" style="vertical-align:top;"/><img src="images/h11.jpg" width="400" style="vertical-align:top;" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							6、在选择模型组件的窗口下选择新建墙组件后点击点选按钮，获取到需要的组件名称。见下图:
+						</b><br><br><img src="images/h12.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							7、然后在输入系数栏中输入组件系数2.7表示新建墙的高度。见下图:
+						</b><br><br><img src="images/h13.jpg" width="800" /><br><br><br>
+						<b class='sdff' style='margin:0px 10px 10px 0px;'>
+							8、这样就得到了我们需要新建墙的面积了，注意项目清单表有3中显示方式，可以根据不同的工作情况来选择。见下图:
+						</b><br><br><img src="images/h14.jpg" width="800" /><br><br><br>
+						<img src="images/h14b.jpg" width="800" /><br><br><br>
+			</div>
+			<div title="防水项目" style='margin:10px;'>					
+				<hr><b style="font-family:arial;color:red;font-size:20px;">怎样计算卫生间厨房地面及墙面的防水项目面积:</b><hr>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						1、先计算地面柔性防水面积，选择卫生间及厨房地面材质来获取地面面积，用地脚线长度乘以高度系数来获取墙面防水面积。见下图:
+					</b><br><br>
+					<img src="images/h15.jpg" width="800" /><br><br><br>
+					<img src="images/h16.jpg" width="900" /><br><br><br>
+
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						2、用同样的方法，也计算出钢性防水在卫生间厨房地面及卫生间墙面1.8米，厨房墙面0.4米处的面积，见下图:
+					</b><br><br><img src="images/h17.jpg" width="900" /><br>
+					<img src="images/h18.jpg" width="900" /><br><br><br>
+
+			</div>	
+			<div title="天花项目" style='margin:10px;'>					
+				<hr><b style="font-family:arial;color:red;font-size:20px;">怎样通过cad天花图计算天花项目数据:反光灯槽、天花海棠边、LED灯带及射灯算量</b><hr>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						1、导入cad天花图组件，将组件内选择的灯带线条重新成组命名。见下图:
+					</b><br><br>
+					<img src="images/h25.jpg" width="800" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						2、在编辑窗口的组件框内选择名称灯带，点击确定就得到需要的反光灯槽长度的项目数据了。见下图:
+					</b><br><br><img src="images/h26.jpg" width="900" /><br>
+					<img src="images/h27.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						3、计算天花海棠边长度：回到模型同样选择图纸的海棠边线条，成组命名。见下图:
+					</b><br><br><img src="images/h28.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						4、在项目编辑窗口的选择组件栏选择组件名称“天花海棠边”，单位选择米或m。见下图:
+					</b><br><br><img src="images/h29.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						5、就得到需要的项目数据了，同样的方法再得到其他天花造型的数据如窗帘盒及lED灯带。见下图:
+					</b><br><br><img src="images/h30.jpg" width="800" /><br>
+					<img src="images/h31.jpg" width="800" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						6、需要注意的是，当计算单位是米、平方米及立方米时，需要选择插件中的字符，从excel导入的字符有些是不符合的，会影响计量，导入时注意检查。见下图:
+					</b><br><br><img src="images/h32.jpg" /><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						7、导入cad图中的图块在su中会变成组件，也可以根据图块名称来计量的，只是有些cad动态图块中隐藏了大量的模型，可以用插件自带的右键选择功能清理组件，减小模型的计算压力。见下图:
+					</b><br><br><img src="images/h33.jpg" width="800"/><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						8、清理完组件后在项目编辑表中选择图块名称，比如射灯，单位选择除米、平方米及立方米以外的任何字符都可以统计这个图块的数量了。见下图:
+					</b><br><br><img src="images/h34.jpg" width="800"/><br>
+					<img src="images/h35.jpg" width="900"/><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						9、在输出的报表C的说明栏中，组件计量单位是长度的项目，会列出所有统计的线段长度明细。见下图:
+					</b><br><br>
+					<img src="images/h36.jpg" width="900"/><br><br><br>		
+			</div>
+			<div title="铺装项目" style='margin:10px;'>					
+				<hr><b style="font-family:arial;color:red;font-size:20px;">通过选择材质名称完成铺装项目中基装及主材的计量:卫生间厨房墙地砖的铺贴，客厅地面瓷砖铺贴</b><hr>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						1、在项目编辑窗口中的材质选择框中选择厨房及卫生间的墙地面材质名称，就得到卫生间厨房墙地砖的铺贴的基装项目。见下图:
+					</b><br><br>
+					<img src="images/h37.jpg" width="800" /><br><br>
+					<img src="images/h38.jpg" width="800" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						2、同样在项目编辑窗口中的材质选择框中选择厨房及卫生间的墙地面材质名称，并在材质系数栏中输入1.05的损耗量，就得到卫生间厨房墙地砖的铺贴的主材量。见下图:
+					</b><br>
+					<img src="images/h39.jpg" width="800" /><br><br>
+					<img src="images/h40.jpg" width="800" /><br><br>
+					<img src="images/h41.jpg" width="800" /><br><br>
+					<img src="images/h42.jpg" width="800" /><br><br>
+					<img src="images/h43.jpg" width="900" /><br><br><br>
+					<b class='sdff' style='margin:0px 10px 10px 0px;'>
+						3、同上方法得到客厅地面地砖铺装的基装及主材项目量。见下图:
+					</b><br><br><img src="images/h44.jpg" width="800" /><br><br>
+					<img src="images/h45.jpg" width="800" /><br><br><br>
+					<img src="images/h45b.jpg" width="800" /><br><br><br>
+
+			</div>	
+
+
+		</div>
+		<div title="相关文件路径">
+			<ol>
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_wj();">点击查看案例文件所在文件夹:</a>
+					点击按钮，将打开案例文件所在的文件夹，请复制文件路径，然后在sketchUp的文件打开窗口中粘贴文件路径，并打开案例文件。或者将案例文件复制到其他文件夹然后在sketchUp的文件打开窗口中打开。
+				</span></li><br />
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_wj1();">点击查看房间名称及材料组件分配表系统默认文件夹:</a>
+					点击按钮，将打开文件所在的文件夹，将文件复制到自定义文件夹然后在相关的窗口中找到路径打开。
+				</span></li><br />
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_wj2();">点击查看项目清单备份文件系统默认文件夹:</a>
+					点击按钮，将打开文件所在的文件夹，将文件复制到自定义文件夹然后在相关的窗口中找到路径打开。文件roomName(jcsj).json是基础数据模板，文件roomNames.json是项目分配表
+				</span></li><br />
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_wj3();">点击查看项目清单导出的Excel文件系统默认文件夹:</a>
+					点击按钮，将打开文件所在的文件夹，将文件复制到自定义文件夹然后在相关的窗口中找到路径打开。文件名为jgb.xlsx的是普通家装项目价格表，bsjgb.xlsx的是别墅装修价格表。
+				</span></li><br />
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_jgb();">点击查看价格表备份文件系统默认文件夹:</a>
+					点击按钮，将打开文件所在的文件夹，将文件复制到自定义文件夹然后在相关的窗口中找到路径打开。
+				</span></li><br />
+				<li><span class='sdf'>
+					<a href="#" class="easyui-linkbutton" iconCls="icon-open" plain="false" onclick="op_jgbexcel();">点击查看价格表Excel文件系统默认文件夹:</a>
+					点击按钮，将打开文件所在的文件夹，将文件复制到自定义文件夹然后在相关的窗口中找到路径打开。文件名为jgb.xlsx的是普通家装项目价格表，bsjgb.xlsx的是别墅装修价格表。
+				</span></li><br />
+			</ol>
+		</div>
+		<div title="用预设数据快速出表流程" style='margin:10px;'>
+				<p class='sdf'>
+				1、导入项目关联表<span class='sdff'>——></span>2、使用项目关联表房间名称建立房间模型<span class='sdff'>——></span>3、进入项目清单计算表点击"加载全部预设项目数据"按钮,计算出项目工程量<span class='sdff'>——></span>4、增加补充其他项目<span class='sdff'>——></span>5、设置并输出报表。如图所示：
+				</p><br />
+				<span class='sdf'>1、导入项目关联表</span><br />
+				<img src="images/hh0.jpg" width="990"/><br /><br />
+				<span class='sdf'>2、使用项目关联表房间名称建立房间模型</span><br />
+				<img src="images/h1.jpg" width="990"/><br /><br />
+				<span class='sdf'>3、进入项目清单计算表点击"加载全部预设项目数据"按钮,计算出项目工程量</span><br />
+				<img src="images/hh1.jpg" width="990"/><br /><br />
+				<span class='sdf'>4、增加补充其他项目</span><br />
+				<img src="images/aa7.gif" width="990"/><br /><br />
+				<span class='sdf'>5、设置并输出报表</span><br />
+				<img src="images/hh2.jpg" width="990"/><br /><br />
+				<a href="https://www.bilibili.com/video/BV1oQ4y177sm/?vd_source=b3b960f212da326452f95ff7d22ff2ef" target="_blank"><h2>宣传片视频</h2></a><br /><br /><br /><br />
+				
+		</div>
+	</div>
+
+	
+	<script type="text/javascript">
+		function op_wj() {
+			sketchup.opp();
+		}
+		function op_wj1() {
+			sketchup.opp1();
+		}
+		function op_wj2() {
+			sketchup.opp2();
+		}
+		function op_wj3() {
+			sketchup.opp3();
+		}
+		function op_jgb() {
+			sketchup.opp_jgb();
+		}
+		function op_jgbexcel() {
+			sketchup.opp_jgbexcel();
+		}
+		sketchup.bzz_a1();
+		function c_as_g(as_g){
+		
+			var as_gg = parseInt(as_g);
+				$('#t').tabs({
+					title : "ggg",
+					width : 1030,
+					height : 710,
+				//	tabPosition: 'left',
+				//	headerWidth : 140,
+					selected : as_gg,
+					//pill : true,
+					
+				}); 
+				$('#tt').tabs({
+					title : "ggg",
+					width : 1020,
+					height : 710,
+					
+					tabPosition: 'left',
+					headerWidth : 100,
+					//selected : as_gg,
+					//pill : true,
+				}); 
+				$('#tt1').tabs({
+					
+					width : 1020,
+					height : 710,
+					
+					tabPosition: 'left',
+					headerWidth : 100,
+					//selected : as_gg,
+					//pill : true,
+				}); 
+				$('#tt2').tabs({
+					
+					width : 1020,
+					height : 710,
+					
+					tabPosition: 'left',
+					headerWidth : 100,
+					//selected : as_gg,
+					//pill : true,
+				}); 
+			}
+			function c_as_gg(as_ggg){
+		
+				var as_ggg = parseInt(as_ggg);
+					$('#t').tabs({
+						title : "ggg",
+						width : 1030,
+						height : 710,
+					//	tabPosition: 'left',
+					//	headerWidth : 140,
+						selected : 0,
+						//pill : true,
+						
+					}); 
+					$('#tt').tabs({
+						title : "ggg",
+						width : 1020,
+						height : 710,
+						
+						tabPosition: 'left',
+						headerWidth : 100,
+						selected : as_ggg,
+						//pill : true,
+					}); 
+					$('#tt1').tabs({
+						
+						width : 1020,
+						height : 710,
+						
+						tabPosition: 'left',
+						headerWidth : 100,
+						//selected : as_gg,
+						//pill : true,
+					}); 
+					$('#tt2').tabs({
+						
+						width : 1020,
+						height : 710,
+						
+						tabPosition: 'left',
+						headerWidth : 100,
+						//selected : as_gg,
+						//pill : true,
+					}); 
+				}
+	</script>
+</body>
+</html>
